@@ -38,14 +38,14 @@
 
  dataObj.prototype.draw = function() {
      context.fillStyle = 'white';
-     context.font = "20px Old English Text MT";
-     context.fillText("Level " + this.level + '', 20, 30);
+     context.font = "25px Old English Text MT";
+     context.fillText("Level " + this.level + '', 25, 30);
      context.fillStyle = 'white';
-     context.font = "20px Old English Text MT";
+     context.font = "25px Old English Text MT";
      
      context.fillText("Target: " + this.targetScore, canWidth * 0.35, 40);
      context.fillStyle = 'white';
-     context.font = "20px Old English Text MT";
+     context.font = "25px Old English Text MT";
      context.fillText("Score: " + this.totalScore, canWidth * 0.35, 85);
      
 
@@ -70,7 +70,7 @@
              this.increase = true;
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
-         context.font = "30px Old English Text MT";
+         context.font = "35px Old English Text MT";
          context.fillText(this.popEncourage[this.popEncourType], canWidth * 0.35, canHeight * 0.3);
      }
 
@@ -79,7 +79,7 @@
              this.alpha += 0.01;
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
-         context.font = "30px Old English Text MT";
+         context.font = "35px Old English Text MT";
          context.fillText("Left: " + this.leftStar, canWidth * 0.35, canHeight * 0.2);
          context.fillText("Prize: " + this.bonus, canWidth * 0.35, canHeight * 0.25);
      }
@@ -95,7 +95,7 @@
                  this.count = 0;
              }
          }
-         context.font = "30px Old English Text MT";
+         context.font = "35px Old English Text MT";
          context.fillText("No" + this.level + ' Target: ' + this.targetScore, this.right, canHeight * 0.5);
      }
 
@@ -104,7 +104,7 @@
              this.alpha += 0.01;
          }
          context.fillStyle = "rgba(255,255,255," + this.alpha + ")";
-         context.font = "30px Old English Text MT";
+         context.font = "35px Old English Text MT";
          context.fillText("GameOver", canWidth * 0.3, canHeight * 0.3);
          context.fillText("Total score is: " + this.totalScore, canWidth * 0.3, canHeight * 0.35);
      }
