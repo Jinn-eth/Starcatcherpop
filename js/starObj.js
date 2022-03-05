@@ -10,7 +10,7 @@ var starObj = function(){
 starObj.prototype.init = function(){
 	for(var i=0; i<5; i++){
 		var unit = new Image();
-		unit.src = 'style/img/star_' + i + '.png';
+		unit.src = 'style/img/whis_' + i + '.png';
 		this.starType[i] = unit;
 	}
 	for(var i=0; i<colNum; i++){
