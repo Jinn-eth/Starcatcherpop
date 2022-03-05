@@ -1,4 +1,4 @@
-# Starcatchers pop star
+# Whiskers-pop
 
 This is a copycat of the household game —— PopStar
 
