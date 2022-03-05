@@ -2,7 +2,7 @@
 
 This is a copycat of the household game —— PopStar
 
-You're welcomed to try the [Whiskerspop](https://Jinn-eth.github.io/Starcatcherpop/).
+You're welcomed to try the [Whiskerspop](https://Jinn-eth.github.io/Whiskerspop/).
 
 Here is game rule. Hope you will enjoy!!!
 
